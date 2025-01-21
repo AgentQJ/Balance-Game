@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://xuyiatw1wnta"]
+
+[ext_resource type="Script" path="res://calibrate.gd" id="1_84rjr"]
+[ext_resource type="Texture2D" uid="uid://cqw3cncu8d4n" path="res://calibrate.png" id="1_ts2rf"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_84rjr")
+
+[node name="Calibrate" type="Sprite2D" parent="."]
+position = Vector2(578, 326)
+texture = ExtResource("1_ts2rf")
+
+[node name="calibrate" type="Button" parent="."]
+layout_mode = 0
+offset_left = 291.0
+offset_top = 353.0
+offset_right = 820.0
+offset_bottom = 571.0
+theme_override_font_sizes/font_size = 100
+text = "Calibrate
+"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 367.0
+offset_top = 153.0
+offset_right = 806.0
+offset_bottom = 353.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 50
+fit_content = true
+
+[connection signal="button_down" from="calibrate" to="." method="_on_calibrate_button_down"]

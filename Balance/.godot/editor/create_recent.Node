@@ -1,0 +1,14 @@
+CollisionShape3D
+Area3D
+StaticBody3D
+MeshInstance3D
+AnimatableBody3D
+Sprite3D
+RichTextLabel
+Timer
+Button
+OptionButton
+Camera3D
+AnimationPlayer
+WorldEnvironment
+DirectionalLight3D

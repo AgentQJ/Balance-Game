@@ -1,0 +1,28 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1737393500
+animatable_body_3d.gd::GDScript::-1::1737253941::0::1::::<>AnimatableBody3D<>::
+calibrate.gd::GDScript::-1::1737350792::0::1::::<>Control<>::
+calibrate.png::CompressedTexture2D::174793632659277243::1737323505::1737323525::1::::<><>::
+calibrate.tscn::PackedScene::1657102483320062986::1737390581::0::1::::<><>::res://calibrate.gd<>uid://cqw3cncu8d4n::::res://calibrate.png
+camera_3d.gd::GDScript::-1::1736444959::0::1::::<>Camera3D<>::
+control.gd::GDScript::-1::1737325725::0::1::::<>Control<>::
+end.png::CompressedTexture2D::8266906858963043361::1737324671::1737324691::1::::<><>::
+end_screen.gd::GDScript::-1::1737390425::0::1::::<>Control<>::
+end_screen.tscn::PackedScene::7999172866141413338::1737390582::0::1::::<><>::res://end_screen.gd<>uid://dp1s0o4tat2lh::::res://end.png
+Global.gd::GDScript::-1::1737352617::0::1::::<>Node<>::
+icon.svg::CompressedTexture2D::1130442827738115817::1736269073::1736269087::1::::<><>::
+main.gd::GDScript::-1::1737357760::0::1::::<>Node<>::
+main.tscn::PackedScene::7063515441951068459::1737390581::0::1::::<><>::res://main.gd<>res://platform.gd<>uid://bhwl0g25kq4q1::::res://rock3.obj
+node.tscn::PackedScene::2729667470545208808::1737390581::0::1::::<><>::
+platform.gd::GDScript::-1::1737355151::0::1::::<>AnimatableBody3D<>::
+read before play.png::CompressedTexture2D::3958957614715341337::1737323702::1737323714::1::::<><>::
+rock2.obj::Mesh::4769770046064913854::1737046291::1737046355::1::::<><>::
+rock3.obj::Mesh::2923871789743605454::1737048238::1737048332::1::::<><>::
+rock.blend::PackedScene::1868303986220467435::1737048281::1737049239::1::::<><>::
+rock.obj::Mesh::8055581842413974740::1736441945::1736442029::1::::<><>::
+SerialPortReader.cs::CSharpScript::-1::1737389815::0::1::::<>Node<>::
+start.png::CompressedTexture2D::4919808380562332478::1737322956::1737323112::1::::<><>::
+title.png::CompressedTexture2D::3560476801673350467::1737323249::1737323275::1::::<><>::
+title_screen.gd::GDScript::-1::1737340341::0::1::::<>Control<>::
+title_screen.tscn::PackedScene::4907551279897445411::1737390581::0::1::::<><>::res://title_screen.gd<>uid://bqyysd3qesrbn::::res://title.png
+tutorial.tscn::PackedScene::9068482372157520956::1737390581::0::1::::<><>::res://control.gd<>uid://bwn0poiq67xy4::::res://read before play.png

@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\quinl\\OneDrive\\Documents\\Programming final project\\new-game-project\\New Game Project.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\quinl\\OneDrive\\Documents\\Programming final project\\new-game-project\\New Game Project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\quinl\\OneDrive\\Documents\\Programming final project\\new-game-project\\New Game Project.csproj",
+        "projectName": "New Game Project",
+        "projectPath": "C:\\Users\\quinl\\OneDrive\\Documents\\Programming final project\\new-game-project\\New Game Project.csproj",
+        "packagesPath": "C:\\Users\\quinl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\quinl\\OneDrive\\Documents\\Programming final project\\new-game-project\\.godot\\mono\\temp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\quinl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

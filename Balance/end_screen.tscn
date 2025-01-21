@@ -1,0 +1,63 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl74hc6n46iic"]
+
+[ext_resource type="Script" path="res://end_screen.gd" id="1_u874b"]
+[ext_resource type="Texture2D" uid="uid://dp1s0o4tat2lh" path="res://end.png" id="1_uqn84"]
+
+[node name="End screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u874b")
+
+[node name="End" type="Sprite2D" parent="."]
+position = Vector2(576, 325)
+texture = ExtResource("1_uqn84")
+
+[node name="Home" type="Button" parent="."]
+layout_mode = 0
+offset_left = 876.0
+offset_top = 122.0
+offset_right = 1087.0
+offset_bottom = 224.0
+theme_override_font_sizes/font_size = 50
+text = "Home"
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 882.0
+offset_top = 516.0
+offset_right = 1090.0
+offset_bottom = 612.0
+theme_override_font_sizes/font_size = 50
+text = "Quit"
+
+[node name="restart" type="Button" parent="."]
+layout_mode = 0
+offset_left = 874.0
+offset_top = 319.0
+offset_right = 1085.0
+offset_bottom = 417.0
+theme_override_font_sizes/font_size = 50
+text = "Restart
+"
+
+[node name="Score Board" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.017
+anchor_bottom = 0.031
+offset_left = 86.0
+offset_top = 126.0
+offset_right = 469.416
+offset_bottom = 505.912
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 50
+scroll_following = true
+
+[connection signal="button_down" from="Home" to="." method="_on_home_button_down"]
+[connection signal="button_down" from="Quit" to="." method="_on_quit_button_down"]
+[connection signal="button_down" from="restart" to="." method="_on_restart_button_down"]
